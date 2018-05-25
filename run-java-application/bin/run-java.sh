@@ -3,15 +3,15 @@
 ### USAGE="./<script>.sh <config file>"
 ### Config file has the following key value pairs.
 ###     -   java.job.name=Your job name
-###	    -	java.executable.jar=Path to jar file
+###	-   java.executable.jar=Path to jar file
 ###     -   java.ext.libs=Thrid party libraries required for your job. Colon seperated jar files.
-###	    -	java.classname=Full qualified class name
-### 	-	java.args=Java arguments
+###	-   java.classname=Full qualified class name
+### 	-   java.args=Java arguments
 ###     -   log.directory=Where you want to have your logs
-###		-	to.email.ids=Comma seperated email addresses
-###		-	from.email.id=From email address
-###		-	email.subject=Email subject
-###		-	email.config.smtp=SMTP host and port details. Example smtp://smtp.gmail.com:587
+###	-   to.email.ids=Comma seperated email addresses
+###	-   from.email.id=From email address
+###	-   email.subject=Email subject
+###	-   email.config.smtp=SMTP host and port details. Example smtp://smtp.gmail.com:587
 ###     -   email.auth.uesrname=Mail user name
 ###     -   email.auth.password=Mail password
 
