@@ -19,7 +19,7 @@ USAGE="./<script.sh> <config.cfg>"
 
 if [[ "$#" -ne 1 ]]
 then
-	echo "[ERROR] - Invalid number of parameters passed as arguments."
+    echo "[ERROR] - Invalid number of parameters passed as arguments."
     echo "Usage is $USAGE"
     exit 1
 fi
